@@ -562,7 +562,7 @@ GameObject:
   - component: {fileID: 428758936}
   m_Layer: 0
   m_Name: obj_player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1611,7 +1611,7 @@ GameObject:
   - component: {fileID: 632860429}
   - component: {fileID: 632860428}
   m_Layer: 0
-  m_Name: Square
+  m_Name: obj_killer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1778,8 +1778,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptMachine
   _data:
-    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
-    _objectReferences: []
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 124e39cba9b9d1f4cb2b045114407224, type: 2}
 --- !u!114 &632860429
 MonoBehaviour:
   m_ObjectHideFlags: 0
